@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yogatemplate/static/css/main.ff1fcdd9.css",
-    "main.js": "/yogatemplate/static/js/main.e7d03cd2.js",
+    "main.js": "/yogatemplate/static/js/main.8f18185d.js",
     "static/js/787.49957c51.chunk.js": "/yogatemplate/static/js/787.49957c51.chunk.js",
     "static/media/fa-solid-900.ttf": "/yogatemplate/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/yogatemplate/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/yogatemplate/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/yogatemplate/index.html",
     "main.ff1fcdd9.css.map": "/yogatemplate/static/css/main.ff1fcdd9.css.map",
-    "main.e7d03cd2.js.map": "/yogatemplate/static/js/main.e7d03cd2.js.map",
+    "main.8f18185d.js.map": "/yogatemplate/static/js/main.8f18185d.js.map",
     "787.49957c51.chunk.js.map": "/yogatemplate/static/js/787.49957c51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff1fcdd9.css",
-    "static/js/main.e7d03cd2.js"
+    "static/js/main.8f18185d.js"
   ]
 }
