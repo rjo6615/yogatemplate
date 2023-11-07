@@ -22,6 +22,7 @@ function Home() {
           </div>
         </section>
       </div>    
+      <center>
       <Container>
       <Row className="d-flex flex-wrap justify-content-center">
         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
@@ -50,6 +51,7 @@ function Home() {
         </div>
       </Row>
     </Container>
+    </center>
 </div>
 <section class="background-radial-gradient overflow-hidden" id='services'>
   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
