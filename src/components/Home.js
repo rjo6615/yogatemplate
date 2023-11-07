@@ -4,7 +4,7 @@ import {Card, Container, Row, Carousel}from 'react-bootstrap';
 function Home() {
   return (
     <div>
-    <div style={{ height: '1000px', backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingTop: '100px' }}>
+    <div style={{ height: 'auto', backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingTop: '100px' }}>
       <div className="d-flex justify-content-center">
         <section className="text-center text-lg-start">
           <div className="card mb-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderColor: 'rgba(0, 0, 0, 0.0)' }}>
@@ -24,25 +24,25 @@ function Home() {
       </div>    
       <Container>
       <Row className="d-flex flex-wrap justify-content-center">
-        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none' }}>
-            <Card.Header className="image-hover" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D)'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D)'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Yoga</Card.Title>
             </Card.Body>
           </Card>
         </div>
-        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none' }}>
-            <Card.Header className="image-hover" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://caffeyoga.com/wp-content/uploads/2015/03/beach-yoga1.jpg)'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://caffeyoga.com/wp-content/uploads/2015/03/beach-yoga1.jpg)'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>More Yoga</Card.Title>
             </Card.Body>
           </Card>
         </div>
-        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none' }}>
-            <Card.Header className="image-hover" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://img.freepik.com/premium-photo/woman-doing-yoga-beach-with-mountain-background_865967-25537.jpg)'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://img.freepik.com/premium-photo/woman-doing-yoga-beach-with-mountain-background_865967-25537.jpg)'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>Most Yoga</Card.Title>
             </Card.Body>
@@ -51,8 +51,7 @@ function Home() {
       </Row>
     </Container>
 </div>
-<section class="background-radial-gradient overflow-hidden">
-
+<section class="background-radial-gradient overflow-hidden" id='services'>
   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
     <div class="row gx-lg-5 align-items-center mb-5">
       <div class="col-lg-6 mb-5 mb-lg-0">
@@ -115,6 +114,43 @@ function Home() {
       </Carousel.Item>
     </Carousel>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">About Us</h2>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Temporibus, expedita iusto veniam atque, magni tempora mollitia
+          dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+          ab ipsum nisi dolorem modi. Quos?  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Temporibus, expedita iusto veniam atque, magni tempora mollitia
+          dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+          ab ipsum nisi dolorem modi. Quos?  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Temporibus, expedita iusto veniam atque, magni tempora mollitia
+          dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+          ab ipsum nisi dolorem modi. Quos?  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Temporibus, expedita iusto veniam atque, magni tempora mollitia
+          dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+          ab ipsum nisi dolorem modi. Quos?  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Temporibus, expedita iusto veniam atque, magni tempora mollitia
+          dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+          ab ipsum nisi dolorem modi. Quos?</p>
         </div>
       </div>
     </div>

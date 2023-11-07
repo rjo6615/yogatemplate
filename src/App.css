@@ -52,6 +52,17 @@
     border-bottom-left-radius: 0.5rem;
   }
 }
+
+@media (max-width: 990px) {
+  .image-size {
+    max-height: 15rem;
+    max-width: 15rem;
+  }
+  .image-hover {
+    height: 15rem;
+    width: 15rem;
+  }
+}
 .background-radial-gradient {
   background-color: hsl(218, 41%, 15%);
   background-image: radial-gradient(650px circle at 0% 0%,
