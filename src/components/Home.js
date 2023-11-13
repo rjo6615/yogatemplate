@@ -2,6 +2,24 @@ import React from "react";
 import {Card, Container, Row, Carousel}from 'react-bootstrap';
 
 function Home() {
+
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  window.addEventListener("scroll", reveal);
+
   return (
     <div>
     <div style={{ height: 'auto', backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingTop: '100px' }}>
@@ -24,7 +42,7 @@ function Home() {
       </div>    
       <center>
       <Container>
-      <Row className="d-flex flex-wrap justify-content-center">
+      <Row className="d-flex flex-wrap justify-content-center reveal">
         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none' }}>
             <Card.Header className="image-hover image-size" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D)'}}></Card.Header>
@@ -55,9 +73,9 @@ function Home() {
 </div>
 <section class="background-radial-gradient overflow-hidden" id='services'>
   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
-    <div class="row gx-lg-5 align-items-center mb-5">
+    <div class="row gx-lg-5 align-items-center mb-5 reveal">
       <div class="col-lg-6 mb-5 mb-lg-0">
-        <h1 class="my-5 display-5 fw-bold ls-tight" style={{color: "hsl(218, 81%, 95%)"}}>
+        <h1 class="my-5 display-5 fw-bold ls-tight " style={{color: "hsl(218, 81%, 95%)"}}>
           The best offer <br />
           <span style={{color: "hsl(218, 81%, 75%)"}}>for your business</span>
         </h1>

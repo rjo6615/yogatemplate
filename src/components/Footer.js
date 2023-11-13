@@ -5,28 +5,22 @@ function Footer() {
           <div className="container p-4">
             <section className="mb-4">
               <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
-                ><i className="fab fa-facebook-f"></i
-              ></a>
+                ><i className="fab fa-facebook-f"></i></a>
         
               <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
-                ><i className="fab fa-twitter"></i
-              ></a>
+                ><i className="fab fa-twitter"></i></a>
         
               <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
-                ><i className="fab fa-google"></i
-              ></a>
+                ><i className="fab fa-google"></i></a>
         
               <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
-                ><i className="fab fa-instagram"></i
-              ></a>
+                ><i className="fab fa-instagram"></i></a>
         
               <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
-                ><i className="fab fa-linkedin-in"></i
-              ></a>
+                ><i className="fab fa-linkedin-in"></i></a>
     
               <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
-                ><i className="fab fa-github"></i
-              ></a>
+                ><i className="fab fa-github"></i></a>
             </section>
 
             <section className="">
