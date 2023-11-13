@@ -23,8 +23,9 @@ function NavbarComponent() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="/yogatemplate" className="button-pop-out">Home</Nav.Link>
+              <Nav.Link href="#home" className="button-pop-out">Home</Nav.Link>
               <Nav.Link href="#services" className="button-pop-out">Services</Nav.Link>
+              <Nav.Link href="#gallery" className="button-pop-out">Gallery</Nav.Link>
               <Nav.Link href="#about" className="button-pop-out">About</Nav.Link>
             </Nav>
             <Button onClick={handleShow} className='float-right button-pop-out' style={{ backgroundColor: '#a2d2ff', borderColor: '#a2d2ff', color: 'black' }}>Book Now</Button>
