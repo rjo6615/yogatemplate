@@ -1,9 +1,4 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
-import Modal from 'react-bootstrap/Modal';
+import {Container, Nav, Navbar, Modal, Form, Button}from 'react-bootstrap';
 import { useState } from 'react';
 
 function NavbarComponent() {
