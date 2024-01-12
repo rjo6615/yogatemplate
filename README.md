@@ -19,7 +19,7 @@ In this project we used the following to build the site
 
 The landing page can be accessed following this link
 
-(Insert landing page site here)
+https://rjo6615.github.io/yogatemplate/
 
 The Url of the Github repository is here
 
