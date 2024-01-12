@@ -19,11 +19,11 @@ In this project we used the following to build the site
 
 The landing page can be accessed following this link
 
-https://johnboy514.github.io/landscapingwildbergamot/
+(Insert landing page site here)
 
 The Url of the Github repository is here
 
-https://github.com/johnboy514/landscapingwildbergamot
+https://github.com/rjo6615/yogatemplate
 
 ## Usage
 When the user opens the site there is a module for job requests

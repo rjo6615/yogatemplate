@@ -53,7 +53,7 @@ function Home() {
         </div>
         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none' }}>
-            <Card.Header className="image-hover image-size" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://caffeyoga.com/wp-content/uploads/2015/03/beach-yoga1.jpg)'}}></Card.Header>
+            <Card.Header className="image-hover image-size" style={{ width: '25rem', height: '25rem', borderRadius: '50%', paddingTop: '200px', backgroundSize: 'cover', backgroundImage: 'url(https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg)'}}></Card.Header>
             <Card.Body className="d-flex flex-column">
               <Card.Title style={{ color: 'black', fontSize: '30px', fontFamily: "Dancing Script, cursive" }} className='mb-4'>More Yoga</Card.Title>
             </Card.Body>
@@ -98,7 +98,7 @@ function Home() {
       <img
         style={{ borderRadius: '0%', width: '900px', height: '410px'}}
         className="d-block w-100"
-        src="https://caffeyoga.com/wp-content/uploads/2015/03/beach-yoga1.jpg"
+        src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
         alt="First slide"
       />
         <Carousel.Caption>
@@ -110,7 +110,7 @@ function Home() {
       <img
         style={{ borderRadius: '0%', width: '900px', height: '410px'}}
         className="d-block w-100"
-        src="https://caffeyoga.com/wp-content/uploads/2015/03/beach-yoga1.jpg"
+        src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
         alt="First slide"
       />
         <Carousel.Caption>
@@ -122,7 +122,7 @@ function Home() {
       <img
         style={{ borderRadius: '0%', width: '900px', height: '410px'}}
         className="d-block w-100"
-        src="https://caffeyoga.com/wp-content/uploads/2015/03/beach-yoga1.jpg"
+        src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
         alt="First slide"
       />
         <Carousel.Caption>
